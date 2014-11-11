@@ -20,6 +20,7 @@ while (my $line = <$fh>) {
 		push (@{$exon_len{$id}}, $exon) if ($id);
 	}
 }
+close $fh;
 
 print "Transcript\ttranscript_len\texon_count\texon_average_len\n";
 foreach my $str (sort keys %mrna_len) {

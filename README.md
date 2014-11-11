@@ -1,1 +1,1 @@
-These perl scripts are using to grap gene sturcture informations from gff3 file.
+These perl scripts are using to grape gene sturcture informations from gff3 file.
